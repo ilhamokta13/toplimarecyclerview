@@ -1,3 +1,5 @@
 package com.example.toplimarecyclerview
 
-data class ListStudent(var nama : String, var umur : Int, var image : Int)
+import java.io.Serializable
+
+data class ListStudent(var nama : String, var umur : Int, var nim : String, var image : Int) : Serializable
